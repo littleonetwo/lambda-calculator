@@ -1,15 +1,18 @@
 .container {
     background-color: #c00025;
-    width: 100%;
+    width: 90%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    height: 700px;
 }
 .display {
     margin-top: 25px;
+    margin-bottom: 25px;
     height: 100px;
-    width: 450px;
+    width: 80%;
+    margin-left: 5%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -18,5 +21,41 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 4.1rem;
   }
+
+button {
+  margin: 10px;
+  color: white;
+  font-size: 1.4rem;
+  padding: 20px;
+  border-radius: 90px;
+  height: 80px;
+  width: 80px;
+  border-style: none;
+  box-shadow: 0 3px black, 0 0 gray;
+
+}
+
+.button-container{
+ width: 90%;
+ margin: 0 5%;
+ display: flex;
+
+}
+
+.number-button{
+  background-color: blue;
+}
+
+.special-button{
+  background-color: dodgerblue;
+}
+
+.operator-button{
+  background-color: teal;
+}
+
+.logo-container{
+  margin: 15px 0 0 5%;
+}
